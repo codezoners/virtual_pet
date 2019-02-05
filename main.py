@@ -24,6 +24,7 @@ print(uri)
 
 client = MongoClient(uri)
 db = client[db.db_name]
+collection = db.items
 
 app = Flask(__name__)
 
@@ -71,7 +72,6 @@ def tdpage_hm():
 
 @app.route("/tdata_hm_live")
 def tdpage_hm_live():
-    collection = db.items
     results = collection.aggregate(
         [
             { '$group' : { '_id' : { 'hour' : { "$hour" : "$date" },
