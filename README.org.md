@@ -57,7 +57,7 @@ Create a Heroku account, and then log in using the CLI tools (=heroku login=).
 
 Create app with =heroku create=. In the Deploy settings, choose Github, and connect to the repository. Recommend: automatic deploys.
 
-Save the requirements: =pip freeze > requirements.txt= in the virtual env, or =pipenv lock -r > requirements.txt= for Pipenv.
+=requirements.txt= not needed - Heroku will use =Pipfile= instead.
 
 Make sure =gunicorn= is installed. And =eventlet=! Check the =Procfile=.
 
