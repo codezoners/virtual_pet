@@ -67,4 +67,4 @@ Configuration variables: set (=ON_HEROKU=, DB vars).
 
 Look at the main heat-map page, and the data feed page.
 
-Edit =upload.py=, run it, see if the data is pushed through.
+Edit =upload.py=, run it, see if the data is pushed through. (Check mLab as well.)
