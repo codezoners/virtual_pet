@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 pymongo = "*"
 gunicorn = "*"
+eventlet = "*"
 
 [requires]
 python_version = "3.7"
