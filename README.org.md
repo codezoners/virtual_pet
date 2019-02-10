@@ -60,3 +60,7 @@ Create app with =heroku create=. In the Deploy settings, choose Github, and conn
 Save the requirements: =pip freeze > requirements.txt= in the virtual env, or =pipenv lock -r > requirements.txt= for Pipenv.
 
 Make sure =gunicorn= is installed. Check the =Procfile=.
+
+Keep an eye on Heroku Dashboard -> Activity.
+
+Configuration variables: set
