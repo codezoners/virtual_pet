@@ -5,7 +5,7 @@ import time
 
 now = time.time()
 
-root = "https://cryptic-bastion-90714.herokuapp.com"
+root = "https://arcane-badlands-45756.herokuapp.com"
 #root = ""http://localhost:5000"
 
 r = requests.post("{root}/add_data".format(root=root),
