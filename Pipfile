@@ -7,10 +7,6 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-pymongo = "*"
-gunicorn = "*"
-eventlet = "*"
-requests = "*"
 
 [requires]
 python_version = "3.7"
